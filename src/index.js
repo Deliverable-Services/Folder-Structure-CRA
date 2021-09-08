@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { QueryClientProvider } from "react-query";
-import { ReactQueryClient } from "./helpers";
+import { ReactQueryClient } from "helpers";
 
 ReactDOM.render(
   <React.StrictMode>

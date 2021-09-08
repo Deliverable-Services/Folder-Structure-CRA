@@ -1,5 +1,5 @@
 import { useQuery, useQueryClient } from "react-query";
-import { userApi } from "@apis";
+import { userApi } from "apis";
 
 export default function useUsers() {
   const queryKey = ["users"];

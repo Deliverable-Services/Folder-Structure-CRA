@@ -10,6 +10,7 @@ module.exports = {
       helpers: path.resolve(__dirname, "src/helpers"),
       config: path.resolve(__dirname, "src/config"),
       apis: path.resolve(__dirname, "src/apis"),
+      assets: path.resolve(__dirname, "src/assets"),
     },
   },
 };
